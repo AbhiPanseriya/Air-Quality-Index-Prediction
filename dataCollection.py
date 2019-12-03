@@ -31,6 +31,7 @@ def retrive_pages(year_start, year_end, city_code):
 if __name__ == '__main__':
     start_time = time.time()
     retrive_pages(2013, 2019, 426470)
+    #city_code 426470 is depicting Ahmedabad India 
     stop_time = time.time()
     print("time taken = {}".format(stop_time-start_time))
     
